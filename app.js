@@ -1,5 +1,5 @@
 // Fetch API
-
+// index.html
 fetch("/data/destinations.json")
   .then((response) => response.json())
   .then((data) => {
@@ -13,7 +13,7 @@ fetch("/data/destinations.json")
       <img src="img/${destination.image}">
       <div class="place__info">
       <h3>${destination.destination}</h3>
-      <p class="">More</p>
+      <p class="">More 🖤</p>
       </div>
       </a>
       `;
